@@ -56,6 +56,7 @@ while 1:
     print("\nМожете повторить запрос написав 'Да' или же ничего, НО тогда программа закроется:", end=" ")
     if input().lower() == "да":
         print()
+        Password.chars = chars = ""
     else:
         print("Пока!")
         break
