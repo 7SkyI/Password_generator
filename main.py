@@ -2,6 +2,7 @@ from random import choice
 
 
 class Password:
+    """Программа для генерации паролей по введённым параметрам"""
     chars = ""
 
     @staticmethod
@@ -37,6 +38,7 @@ class Password:
                 Password.chars = Password.chars.replace(i, '')
 
 
+print(Password.__doc__)
 while 1:
     try:
         numbers_of_generations = int(input("Введите кол-во генерируемых паролей: "))
